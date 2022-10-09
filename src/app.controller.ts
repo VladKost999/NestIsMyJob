@@ -8,7 +8,7 @@ export class AppController {
 
   @Get()
   GetHello(): string {
-    return "WELCOME TO THE CLUB , BUDDY"
+    return "WELCOME TO THE CLUB , BUDDY!!!"
   }
   
   @Get(":cats")
